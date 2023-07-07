@@ -1,0 +1,13 @@
+apiVersion: deployments.ff.io/v1alpha1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/name: deployment
+    app.kubernetes.io/instance: deployment-sample
+    app.kubernetes.io/part-of: ansible-operator-meetup
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: ansible-operator-meetup
+  name: deployment-sample
+spec:
+  size: 1
+  reverse_url: ""
