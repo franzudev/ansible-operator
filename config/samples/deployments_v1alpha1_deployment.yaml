@@ -9,5 +9,5 @@ metadata:
     app.kubernetes.io/created-by: ansible-operator-meetup
   name: deployment-sample
 spec:
-  size: 1
-  reverse_url: ""
+  size: 2
+  reverse_url: "http://run.mocky.io/v3/1d76e782-0d7c-45fa-97f7-bc7b50246524"

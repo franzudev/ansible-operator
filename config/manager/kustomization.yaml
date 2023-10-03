@@ -5,4 +5,4 @@ kind: Kustomization
 images:
 - name: controller
   newName: franzu/nginx-operator
-  newTag: v0.0.5
+  newTag: v0.0.7
